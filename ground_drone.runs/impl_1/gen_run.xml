@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1637234798">
+  <File Type="ROUTE-PWR" Name="Drone_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Drone.tcl"/>
+  <File Type="BITSTR-BMM" Name="Drone_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Drone_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Drone_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Drone_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Drone_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Drone.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Drone_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Drone_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Drone_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Drone_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Drone_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Drone_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Drone_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Drone.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Drone_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Drone.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Drone_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Drone.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Drone_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Drone_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Drone_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Drone_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Drone_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Drone_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Drone.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Drone_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Drone.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Drone_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Drone_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Drone.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Drone_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Drone_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Drone_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Drone_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Drone_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Drone_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Drone_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Drone_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Drone_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Drone_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Drone_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Drone_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Drone.bit"/>
+  <File Type="BITSTR-RBT" Name="Drone.rbt"/>
+  <File Type="BITSTR-NKY" Name="Drone.nky"/>
+  <File Type="BG-DRC" Name="Drone.drc"/>
+  <File Type="RDI-RDI" Name="Drone.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Direction.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Speed.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Start_StateMachine.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Drone.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Drone"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Constraints_IO.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 18 12:26:40 2021
+# Process ID: 9916
+# Current directory: C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.runs/synth_1
+# Command line: vivado.exe -log Drone.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Drone.tcl
+# Log file: C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.runs/synth_1/Drone.vds
+# Journal file: C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Drone.tcl -notrace

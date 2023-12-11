@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ground_drone.srcs/sources_1/new/Start_StateMachine.vhd" \
+"../../../../ground_drone.srcs/sim_1/new/Simu_StateMachine.vhd" \
+
+# Do not sort compile order
+nosort

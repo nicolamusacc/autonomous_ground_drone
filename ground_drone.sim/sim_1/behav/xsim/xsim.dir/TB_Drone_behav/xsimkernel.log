@@ -1,0 +1,7 @@
+Running: xsim.dir/TB_Drone_behav/xsimk.exe -simmode gui -wdb TB_Drone_behav.wdb -simrunnum 0 -socket 60348
+Design successfully loaded
+Design Loading Memory Usage: 5744 KB (Peak: 5744 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 14292 KB (Peak: 14292 KB)
+Simulation CPU Usage: 8593 ms

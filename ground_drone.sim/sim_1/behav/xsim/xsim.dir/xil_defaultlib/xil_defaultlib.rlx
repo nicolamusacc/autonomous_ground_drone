@@ -1,0 +1,12 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sim_1/new/Simu_Direction.vhd,1638109102,vhdl,,,,tb_direction,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sim_1/new/Simu_Speed.vhd,1638108344,vhdl,,,,tb_speed,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sim_1/new/Simu_StateMachine.vhd,1638107763,vhdl,,,,tb_statemachine,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sim_1/new/TB_Drone.vhd,1638110778,vhdl,,,,tb_drone,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sources_1/new/Direction.vhd,1637234759,vhdl,,,,direction,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sources_1/new/Drone.vhd,1637006344,vhdl,,,,drone,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sources_1/new/Speed.vhd,1638101534,vhdl,,,,speed,,,,,,,,
+C:/Users/fer99/Documents/02. MAE2/433 - Architecture Design and Synthesis of Hardware Systems/ground_drone/ground_drone.srcs/sources_1/new/Start_StateMachine.vhd,1637083398,vhdl,,,,start_statemachine,,,,,,,,

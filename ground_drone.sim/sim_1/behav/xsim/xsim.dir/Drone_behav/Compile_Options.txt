@@ -1,0 +1,1 @@
+-wto "368e95ecce374faebc231159742e598a" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Drone_behav" "xil_defaultlib.Drone" -log "elaborate.log" 
