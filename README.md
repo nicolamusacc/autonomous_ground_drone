@@ -13,8 +13,14 @@ This simple ground drone (see figure below), has 2 infrared sensors to detect a 
 
 ## Results
 
+A practical demonstration of the drone performing turns in a use case scenario 
+
 <video width="500" height="500" controls>
   <source src="img/ground_drone_video.mov" type="video/mp4">
 </video>
 
+
+
+
+https://github.com/nicolamusacchio99/autonomous_ground_drone/assets/93912943/17c13a0f-ec8a-4423-972b-58c05616ad5e
 
